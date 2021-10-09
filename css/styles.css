@@ -32,6 +32,11 @@ header h2 {
     background-color: #901CAD;
 }
 
+#reserveButton{
+    background-color: #901CAD;
+    color: white;
+}
+
 .site-footer{
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
@@ -48,4 +53,11 @@ a, a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
